@@ -10,6 +10,6 @@ import org.junit.runner.RunWith
   plugin     = Array("pretty",
     "html:target/cucumber-report.html"),
   monochrome = true,
-  tags = {"@smoke, @regression, ~@wip"}
+  tags = {"@smoke and @regression not @wip"}
 )
 class runner // an empty class body is OK

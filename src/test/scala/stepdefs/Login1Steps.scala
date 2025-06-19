@@ -35,14 +35,6 @@ class Login1Steps extends ScalaDsl with EN {
       println("Failed to Login")
     }
 
-//    val overview1 = if(driver.findElement(By.xpath("//*[@id=\"showOverview\"]/h1")).getText == "Accounts Overview"){
-//      println("Login Successful")
-//    }else{
-//      println("Failed to Login")
-//    }
-//
-//    overview1
-
   }
 
 
